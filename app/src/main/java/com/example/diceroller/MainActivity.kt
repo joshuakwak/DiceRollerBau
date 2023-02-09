@@ -46,6 +46,10 @@ class MainActivity : AppCompatActivity() {
         resultText.text = resultValue.toString()
     }
 
+    /**
+     * EXTENSION FUNCTION
+     * Not part of Coding Challenge, but added anyway. :)
+     */
     private fun String.getIntValue() : Int {
         return if(this.isDigitsOnly()) this.toInt() else 1
     }
